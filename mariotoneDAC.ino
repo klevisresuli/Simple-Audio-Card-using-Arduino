@@ -139,7 +139,7 @@ int index=0;
 uint8_t v_level;
 byte SineWave[32]={8,9,10,11,12,13,14,15,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0,0,1,2,3,4,5,6,7};
 void setup() {
-DDRB |= 15;//vendosim PB0, PB1, PB2, PB3 si output 
+DDRB |= 15;//set PB0, PB1, PB2, PB3 as output 
 timer1_init();
 }
 
